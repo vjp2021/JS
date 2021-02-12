@@ -61,6 +61,7 @@ function switchAnalyzeColor(color) {
 	}
 }
 switchAnalyzeColor(randomColor);
+console.log("vjp")
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
