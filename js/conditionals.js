@@ -44,7 +44,23 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your function and console.log the results.
  * You should see a different message every time you refresh the page
  */
-
+function switchAnalyzeColor(color) {
+	switch(color)
+	{
+		case "red":
+			console.log("Strawberries are red");
+			break;	
+		case "blue":
+			console.log("Blue is the color of the sky");
+			break;
+		case "cyan":
+			console.log("I dont know anything about cyan");
+			break;	
+		default: 
+			console.log("I dont know anything about that color");
+	}
+}
+switchAnalyzeColor(randomColor);
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
