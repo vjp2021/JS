@@ -44,6 +44,11 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your function and console.log the results.
  * You should see a different message every time you refresh the page
  */
+
+/**
+ * TODO:
+ * Refactor your above function to use a switch-case statement
+ */
 function switchAnalyzeColor(color) {
 	switch(color)
 	{
@@ -62,11 +67,6 @@ function switchAnalyzeColor(color) {
 }
 switchAnalyzeColor(randomColor);
 console.log("vjp")
-/**
- * TODO:
- * Refactor your above function to use a switch-case statement
- */
-
 /**
  * TODO:
  * Prompt the user for a color when the page loads, and pass the input from the
