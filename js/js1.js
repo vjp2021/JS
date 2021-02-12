@@ -67,13 +67,13 @@ console.log(isTwo(2));
 //  * > calculateTip(0.25, 25.50) // returns 6.375
 //  * > calculateTip(0.15, 33.42) // returns 5.013
  
-function calculateTip(percentage, total){
-	var tip = percentage * total;
-	return tip;
-}
- console.log(calculateTip(0.20, 20))// returns 4
- console.log(calculateTip(0.25, 25.50)) // returns 6.375
- console.log(calculateTip(0.15, 33.42)) // returns 5.013
+// function calculateTip(percentage, total){
+// 	var tip = percentage * total;
+// 	alert(" Your total is: " + total + " Tip percentage: " + percentage  +" Amount to tip: " + tip);
+// }
+//  console.log(calculateTip(0.20, 20))// returns 4
+//  console.log(calculateTip(0.25, 25.50)) // returns 6.375
+//  console.log(calculateTip(0.15, 33.42)) // returns 5.013
 /**
  * TODO:
  * Use prompt and alert in combination with your calculateTip function to
@@ -95,3 +95,8 @@ function calculateTip(percentage, total){
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+ function applyDiscount(originalPrice, discountPercent){
+ 		var discountedPrice = originalPrice - (originalPrice * discountPercent);
+ 		console.log(discountedPrice);
+ }
+applyDiscount(45.99, 0.12) // 40.4712
